@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#bg-blur {
+    backdrop-filter: blur(6px);
+}
+
+.text-corsel-1 {
+    transform: translateX(-150rem);
+}
+.text-corsel-2 {
+    transform: translateX(-2400px);
+}
+
+.minus-400px{
+    /* @apply -translate-x-[400px]; */
+    transform: translateX(-400px);
+}
+
+.add-400px{
+    /* @apply transalte-x-[400px]; */
+    transform: translateX(400px);
+}
